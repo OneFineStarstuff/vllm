@@ -12,7 +12,7 @@ affine==2.4.0
     # via rasterio
 aiohappyeyeballs==2.4.3
     # via aiohttp
-aiohttp==3.10.11
+aiohttp==3.14.0
     # via
     #   aiohttp-cors
     #   datasets
@@ -63,7 +63,7 @@ bitsandbytes==0.46.1
     # via
     #   -r requirements/test.in
     #   lightning
-black==24.10.0
+black==26.3.1
     # via datamodel-code-generator
 blinker==1.9.0
     # via flask
@@ -202,7 +202,7 @@ fastrlock==0.8.2
     # via cupy-cuda12x
 fastsafetensors==0.1.10
     # via -r requirements/test.in
-filelock==3.16.1
+filelock==3.20.3
     # via
     #   blobfile
     #   datasets
@@ -213,9 +213,9 @@ filelock==3.16.1
     #   virtualenv
 fiona==1.10.1
     # via torchgeo
-flask==3.1.1
+flask==3.1.3
     # via mlflow
-fonttools==4.55.0
+fonttools==4.60.2
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
@@ -240,7 +240,7 @@ genai-perf==0.0.8
     # via -r requirements/test.in
 genson==1.3.0
     # via datamodel-code-generator
-geopandas==1.0.1
+geopandas==1.1.2
     # via terratorch
 gitdb==4.0.12
     # via gitpython
@@ -316,7 +316,7 @@ hypothesis-graphql==0.11.1
     # via schemathesis
 hypothesis-jsonschema==0.23.1
     # via schemathesis
-idna==3.10
+idna==3.15
     # via
     #   anyio
     #   email-validator
@@ -412,7 +412,7 @@ llvmlite==0.44.0
     # via numba
 lm-eval @ git+https://github.com/EleutherAI/lm-evaluation-harness.git@206b7722158f58c35b7ffcd53b035fdbdda5126d
     # via -r requirements/test.in
-lxml==5.3.0
+lxml==6.1.0
     # via
     #   blobfile
     #   sacrebleu
@@ -444,7 +444,7 @@ mdurl==0.1.2
     # via markdown-it-py
 mistral-common==1.8.2
     # via -r requirements/test.in
-mlflow==2.22.0
+mlflow==3.11.1
     # via terratorch
 mlflow-skinny==2.22.0
     # via mlflow
@@ -474,7 +474,7 @@ networkx==3.2.1
     # via
     #   scikit-image
     #   torch
-nltk==3.9.1
+nltk==3.9.4
     # via rouge-score
 num2words==0.5.14
     # via -r requirements/test.in
@@ -666,7 +666,7 @@ peft==0.16.0
     # via
     #   -r requirements/test.in
     #   lm-eval
-pillow==10.4.0
+pillow==12.2.0
     # via
     #   genai-perf
     #   imageio
@@ -705,7 +705,7 @@ propcache==0.2.0
     # via yarl
 proto-plus==1.26.1
     # via google-api-core
-protobuf==5.28.3
+protobuf==5.29.6
     # via
     #   google-api-core
     #   googleapis-common-protos
@@ -724,12 +724,12 @@ py==1.11.0
     # via pytest-forked
 py-spy==0.4.0
     # via ray
-pyarrow==18.0.0
+pyarrow==23.0.1
     # via
     #   datasets
     #   genai-perf
     #   mlflow
-pyasn1==0.6.1
+pyasn1==0.6.3
     # via
     #   pyasn1-modules
     #   rsa
@@ -780,7 +780,7 @@ pystemmer==3.0.0
     # via mteb
 pytablewriter==1.2.0
     # via lm-eval
-pytest==8.3.5
+pytest==9.0.3
     # via
     #   -r requirements/test.in
     #   buildkite-test-collector
@@ -821,7 +821,7 @@ python-dateutil==2.9.0.post0
     #   typepy
 python-rapidjson==1.20
     # via tritonclient
-pytorch-lightning==2.5.2
+pytorch-lightning==2.6.1
     # via
     #   lightly
     #   lightning
@@ -858,7 +858,7 @@ rasterio==1.4.3
     #   rioxarray
     #   terratorch
     #   torchgeo
-ray==2.48.0
+ray==2.55.0
     # via -r requirements/test.in
 redis==5.2.0
     # via tensorizer
@@ -873,7 +873,7 @@ regex==2024.9.11
     #   sacrebleu
     #   tiktoken
     #   transformers
-requests==2.32.3
+requests==2.33.0
     # via
     #   buildkite-test-collector
     #   databricks-sdk
@@ -965,9 +965,9 @@ sentence-transformers==3.2.1
     # via
     #   -r requirements/test.in
     #   mteb
-sentencepiece==0.2.0
+sentencepiece==0.2.1
     # via mistral-common
-setuptools==77.0.3
+setuptools==82.0.1
     # via
     #   lightning-utilities
     #   pytablewriter
@@ -1013,9 +1013,9 @@ sqlalchemy==2.0.41
     #   mlflow
 sqlitedict==2.1.0
     # via lm-eval
-sqlparse==0.5.3
+sqlparse==0.5.4
     # via mlflow-skinny
-starlette==0.46.2
+starlette==1.0.1
     # via
     #   fastapi
     #   schemathesis
@@ -1069,7 +1069,7 @@ tomli==2.2.1
     # via schemathesis
 tomli-w==1.2.0
     # via schemathesis
-torch==2.7.1+cu128
+torch==2.12.0
     # via
     #   -r requirements/test.in
     #   accelerate
@@ -1142,7 +1142,7 @@ tqdm==4.66.6
     #   transformers
 tqdm-multiprocess==0.0.11
     # via lm-eval
-transformers==4.55.2
+transformers==5.0.0rc3
     # via
     #   -r requirements/test.in
     #   genai-perf
@@ -1202,7 +1202,7 @@ tzdata==2024.2
     # via pandas
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.2.3
+urllib3==2.7.0
     # via
     #   blobfile
     #   botocore
@@ -1215,7 +1215,7 @@ uvicorn==0.35.0
     # via mlflow-skinny
 vector-quantize-pytorch==1.21.2
     # via -r requirements/test.in
-virtualenv==20.31.2
+virtualenv==20.36.1
     # via ray
 vocos==0.1.0
     # via -r requirements/test.in
@@ -1223,7 +1223,7 @@ wcwidth==0.2.13
     # via ftfy
 webcolors==24.11.1
     # via jsonschema
-werkzeug==3.1.3
+werkzeug==3.1.6
     # via
     #   flask
     #   schemathesis
